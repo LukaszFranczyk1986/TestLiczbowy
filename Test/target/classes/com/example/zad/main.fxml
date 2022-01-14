@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.zad.MainController">
+   <children>
+      <AnchorPane fx:id="anchor_fragment" layoutX="26.0" layoutY="14.0" prefHeight="367.0" prefWidth="546.0">
+         <children>
+            <Button layoutX="412.0" layoutY="86.0" mnemonicParsing="false" onAction="#btn_searchNumber" prefHeight="35.0" prefWidth="120.0" text="Wyszukaj" />
+            <TextField fx:id="txt_numbers" layoutX="25.0" layoutY="23.0" prefHeight="35.0" prefWidth="507.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

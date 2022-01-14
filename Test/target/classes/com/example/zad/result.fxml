@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="367.0" prefWidth="546.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.zad.ResultController">
+   <children>
+      <Label fx:id="lbl_result" contentDisplay="CENTER" layoutX="206.0" layoutY="91.0" prefHeight="82.0" prefWidth="195.0" text="Liczba" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="43.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
